@@ -5,12 +5,12 @@
  * Return: Void.
  */
 
-int _abs(int j)
+int _abs(int n)
 {
 
-	if (j < 0)
+	if (n < 0)
 	{
-		return (j * -1);
+		return (n * -1);
 	}
-	return (j);
+	return (n);
 }
