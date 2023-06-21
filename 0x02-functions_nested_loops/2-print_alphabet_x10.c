@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- *new projet aimed to  print_alphabet_x10 - func
+ * print_alphabet_x10 - func
  *
  * Return - 0
  */
 void print_alphabet_x10(void)
 {
-int j = 0;
-while (j < 10)
+int b = 0;
+while (b < 10)
 {
-char i = 'a';
-while (i <= 'z')
+char a = 'a';
+while (a <= 'z')
 {
-_putchar(i);
-i++;
+_putchar(a);
+a++;
 }
 _putchar('\n');
-i++;
+b++;
 }
 }
